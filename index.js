@@ -1,5 +1,5 @@
 const Bot = require('./Bot');
-const config = require('./Bot/config/puppeter.json');
+const config = require('./Bot/config/puppeteer');
 
 const run = async () => {
     const bot = new Bot();
