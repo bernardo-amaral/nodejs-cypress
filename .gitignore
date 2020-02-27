@@ -1,0 +1,6 @@
+/.idea
+/node_modules
+/Bot/config/db_config.json
+/Bot/config/puppeteer.json
+
+ig-bot-19682-firebase-adminsdk-2d9be-ed04fed5b6.json
