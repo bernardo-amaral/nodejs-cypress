@@ -1,32 +1,36 @@
 {
-  "name": "ig-bot",
-  "version": "1.0.0",
-  "description": "",
-  "main": "src/index.js",
+  "name": "src",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "cypress": "^4.1.0",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-scripts": "3.4.0"
+  },
   "scripts": {
-    "start": "cd ./src && npm start",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
     "cypress": "./node_modules/.bin/cypress open"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bernardo-amaral/ig-bot.git"
+  "eslintConfig": {
+    "extends": "react-app"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/bernardo-amaral/ig-bot/issues"
-  },
-  "homepage": "https://github.com/bernardo-amaral/ig-bot#readme",
-  "dependencies": {
-    "chai": "^4.2.0",
-    "cypress": "^4.1.0",
-    "husky": "^4.2.3",
-    "mocha": "^7.1.0"
-  },
-  "devDependencies": {
-    "eslint": "^6.8.0",
-    "eslint-config-airbnb-base": "^14.1.0",
-    "eslint-plugin-import": "^2.20.1"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
