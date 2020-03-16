@@ -1,11 +1,27 @@
 # Cypress Project
 
+### Instalation
+
+```
+npm install
+```
+
 ### Start React server:
+
 ```
 npm start
 ```
 
-### Start Cypress:
+### Running Cypress:
+
+##### - UI mode
+
+```
+npm run cypress:ui
+```
+
+##### - CLI mode
+
 ```
 npm run cypress
 ```
